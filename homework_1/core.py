@@ -4,6 +4,7 @@ from functools import reduce
 
 def cos_sim(vector_1: List[float], vector_2: List[float]):
     """
+    Функция, имплементирующая косинусное подобие
     """
     a = sum([
         (

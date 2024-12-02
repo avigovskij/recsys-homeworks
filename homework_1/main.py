@@ -10,7 +10,7 @@ with open('./data.json', 'r') as json_data_file_desc:
     json_data = json.load(json_data_file_desc)
 
 def transpond_matrix(data):
-    """"""
+    """Функция транспонирования JSON'а"""
     new_data = defaultdict(dict)
     for user_id, user_data in data.items():
         for product_id, similarity_value in user_data.items():
@@ -19,7 +19,7 @@ def transpond_matrix(data):
 
 
 def load_cos_sim(data):
-    """"""
+    """Главная функция, работающая с форматом данных из ./data.json"""
     matrix = {}
 
     for first_category in data:
