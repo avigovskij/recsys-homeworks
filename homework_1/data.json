@@ -1,0 +1,42 @@
+{
+    "user_1": {
+        "product_1": 5,
+        "product_2": 5,
+        "product_3": 5,
+        "product_4": 5,
+        "product_5": 5, 
+        "product_6": 4
+    },
+    "user_2": {
+        "product_1": 4,
+        "product_2": 5,
+        "product_3": 4,
+        "product_4": 3,
+        "product_5": 0,
+        "product_6": 5
+    },
+    "user_3": {
+        "product_1": 5,
+        "product_2": 5,
+        "product_3": 4,
+        "product_4": 5,
+        "product_5": 5,
+        "product_6": 5
+    },
+    "user_4": {
+        "product_1": 3,
+        "product_2": 3,
+        "product_3": 2,
+        "product_4": 0,
+        "product_5": 0,
+        "product_6": 3
+    },
+    "user_5": {
+        "product_1": 5,
+        "product_2": 5,
+        "product_3": 5,
+        "product_4": 3,
+        "product_5": 0,
+        "product_6": 1
+    }
+}
