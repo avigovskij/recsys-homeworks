@@ -51,7 +51,7 @@ def get_maximum_similar_element(distances) -> Tuple[str, int]:
 
 
 def clasterize_matrix(data: dict, cluster_radius: float):
-    """"""
+    """Функция, производящая кластеризацию данных и выводящая информацию в stdout"""
     for category_element, category_distances in data.items():
         maximum_distance_element_id, maximum_distance = get_maximum_similar_element(category_distances)
         
