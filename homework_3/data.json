@@ -1,0 +1,52 @@
+{
+    "matrixes": [
+        [1, 0, 0, 0, 2, 0],
+        [0, 0, 3, 4, 0, 0],
+        [0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 8, 0, 5],
+        [0, 0, 0, 0, 0, 0],
+        [0, 7, 1, 0, 0, 6]
+    ],
+    "user_product": {
+        "user_1": {
+            "product_1": 5,
+            "product_2": 5,
+            "product_3": 5,
+            "product_4": 4,
+            "product_5": 0,
+            "product_6": 4
+        },
+        "user_2": {
+            "product_1": 4,
+            "product_2": 5,
+            "product_3": 4,
+            "product_4": 3,
+            "product_5": 0,
+            "product_6": 5
+        },
+        "user_3": {
+            "product_1": 5,
+            "product_2": 5,
+            "product_3": 4,
+            "product_4": 4,
+            "product_5": 0,
+            "product_6": 5
+        },
+        "user_4": {
+            "product_1": 0,
+            "product_2": 0,
+            "product_3": 0,
+            "product_4": 0,
+            "product_5": 0,
+            "product_6": 0
+        },
+        "user_5": {
+            "product_1": 5,
+            "product_2": 5,
+            "product_3": 5,
+            "product_4": 3,
+            "product_5": 0,
+            "product_6": 1
+        }
+    }
+}
