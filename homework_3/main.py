@@ -91,7 +91,7 @@ class CoordinateWayWithIndex(CoordinateWay):
         return values, cols_coordinates, row_index
 
     def verbose(self):
-        super().verbose()
+        super(CoordinateWay, self).verbose()
         values_indexed, cols_coordinates_indexed, row_index = self.reduce()
         print('Структура хранения матрицы в координатном формате со сжатием по строке:')
         print('Values:')
@@ -167,7 +167,7 @@ class FilterReducer:
         for user_id, user_data in self._data.items():
             for product_id, similarity_value in user_data.items():
                 new_data[product_id][user_id] = similarity_value
-        print(new_data)
+
         return new_data
 
     def print_matrix(self, matrix):
@@ -215,7 +215,7 @@ class FilterReducer:
         self.print_matrix(reduced_data)
 
 
-with open('./homework_3/data.json', 'r') as json_data_file_desc:
+with open('./data.json', 'r') as json_data_file_desc:
     json_data = json.load(json_data_file_desc)
     matrix_reducers_data = json_data['matrixes']
     user_product = json_data['user_product']
