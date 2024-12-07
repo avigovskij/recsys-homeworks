@@ -112,7 +112,8 @@ def get_products_for_user(data, base_user_id):
                 category_id=product_id
             )
         return get_most_valueable_product(
-            rating=product_averages
+            rating=product_averages,
+            count=5
         )
 
     cos_sim_matrix = load_cos_sim(data=data, filter_base=base_user_id, similarity_barrier=0.7)
