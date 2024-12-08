@@ -1,0 +1,110 @@
+{
+    "user_1": {
+        "product_1": 1,
+        "product_2": 2,
+        "product_3": 5,
+        "product_4": 0,
+        "product_5": 0,
+        "product_6": 1, 
+        "product_7": 2,
+        "product_8": 0,
+        "product_9": 5,
+        "product_10": 3
+    },
+    "user_2": {
+        "product_1": 5,
+        "product_2": 0,
+        "product_3": 3,
+        "product_4": 4,
+        "product_5": 2,
+        "product_6": 5,
+        "product_7": 0,
+        "product_8": 0,
+        "product_9": 0,
+        "product_10": 5
+    },
+    "user_3": {
+        "product_1": 5,
+        "product_2": 3,
+        "product_3": 0,
+        "product_4": 5,
+        "product_5": 2,
+        "product_6": 0,
+        "product_7": 5,
+        "product_8": 1,
+        "product_9": 5,
+        "product_10": 4
+    },
+    "user_4": {
+        "product_1": 0,
+        "product_2": 0,
+        "product_3": 0,
+        "product_4": 5,
+        "product_5": 3,
+        "product_6": 5,
+        "product_7": 4,
+        "product_8": 0,
+        "product_9": 5,
+        "product_10": 0
+    },
+    "user_5": {
+        "product_1": 5,
+        "product_2": 0,
+        "product_3": 4,
+        "product_4": 3,
+        "product_5": 0,
+        "product_6": 3,
+        "product_7": 2,
+        "product_8": 5,
+        "product_9": 1,
+        "product_10": 0
+    },
+    "user_6": {
+        "product_1": 3,
+        "product_2": 4,
+        "product_3": 5,
+        "product_4": 0,
+        "product_5": 3,
+        "product_6": 4,
+        "product_7": 5,
+        "product_8": 1,
+        "product_9": 4, 
+        "product_10": 5
+    },
+    "user_7": {
+        "product_1": 0,
+        "product_2": 0,
+        "product_3": 0,
+        "product_4": 0,
+        "product_5": 0,
+        "product_6": 2,
+        "product_7": 0,
+        "product_8": 0,
+        "product_9": 0, 
+        "product_10": 5
+    },
+    "user_8": {
+        "product_1": 0,
+        "product_2": 1,
+        "product_3": 2,
+        "product_4": 0,
+        "product_5": 3,
+        "product_6": 5,
+        "product_7": 2,
+        "product_8": 0,
+        "product_9": 4, 
+        "product_10": 3
+    },
+    "user_9": {
+        "product_1": 0,
+        "product_2": 0,
+        "product_3": 0,
+        "product_4": 0,
+        "product_5": 0,
+        "product_6": 0,
+        "product_7": 0,
+        "product_8": 0,
+        "product_9": 0, 
+        "product_10": 0
+    }
+}
