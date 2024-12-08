@@ -9,7 +9,7 @@ import math
 from core import cos_sim
 
 
-with open('./data.json', 'r') as json_data_file_desc:
+with open('./homework_4/data.json', 'r') as json_data_file_desc:
     json_data = json.load(json_data_file_desc)
 
 
@@ -166,10 +166,11 @@ def get_products_for_user(data, base_user_id):
 
 argparser = argparse.ArgumentParser()
 
-argparser.add_argument('--user_id', type=str, required=True)
+# argparser.add_argument('--user_id', type=str, required=True)
 
-parsed_args = argparser.parse_args()
-user_id = parsed_args.user_id
+# parsed_args = argparser.parse_args()
+# user_id = parsed_args.user_id
+user_id = 'user_1'
 
 product_rates = get_products_for_user(data=json_data, base_user_id=user_id)
 
