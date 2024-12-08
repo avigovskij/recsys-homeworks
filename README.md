@@ -5,3 +5,4 @@
 * [Домашнее задание 3](./homework_3/main.py)
 * [Домашнее задание 4](./homework_4/main.py)
 * [Домашнее задание 5](./homework_5/main.py)
+* [Домашнее задание 6](./homework_6/main.py)
